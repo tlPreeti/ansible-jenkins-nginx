@@ -12,7 +12,7 @@ pipeline {
         stage('Run Ansible Playbook') {
             steps {
                 sh '''
-                sudo su - ansible -c "ansible-playbook -i hosts install-nginx.yml"
+                sudo -u ansible ansible-playbook -i hosts install-nginx.yml
                 '''
             }
         }
