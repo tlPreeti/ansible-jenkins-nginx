@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/username/ansible-jenkins-nginx.git'
+                git 'https://github.com/tlPreeti/ansible-jenkins-nginx.git'
             }
         }
 
