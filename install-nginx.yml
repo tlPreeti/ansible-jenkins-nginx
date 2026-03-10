@@ -1,6 +1,6 @@
 ---
 - name: Install Nginx
-  hosts: web
+  hosts: dev
   become: true
 
   tasks:
